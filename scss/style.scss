@@ -1,0 +1,30 @@
+@import "reset";
+@import "navbar";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    overflow: clip;
+    min-height: 100%;
+}
+
+.bg-image-portfolio {
+    background-color: #080707;
+    overflow: hidden;
+    max-width: 100%;
+
+    .container {
+        max-width: 1460px;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+
+
+}

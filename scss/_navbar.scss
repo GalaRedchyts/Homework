@@ -1,0 +1,41 @@
+.header{
+    margin: 80px 0px;
+}
+
+.header .container {
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.navbar {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+
+    .logo {
+        flex-basis: 750px;
+        flex-shrink: 1;
+        font-size: 27px;
+        line-height: 1;
+    }
+
+    .navbar-list {
+        display: flex;
+        gap: 75px;
+
+        li {
+            white-space: nowrap;
+        }
+    }
+
+    .contact-list {
+        display: flex;
+        gap: 10px;
+    }
+
+    .navbar-list li:hover,  .navbar-list li a:hover{
+        text-decoration: underline;
+        transition-duration: 2s;
+    }
+}

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+/* FORM */
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.header {
+  margin: 80px 0px;
+}
+
+.header .container {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 85px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar .logo {
+  -ms-flex-preferred-size: 750px;
+      flex-basis: 750px;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  font-size: 27px;
+  line-height: 1;
+}
+.navbar .navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 75px;
+}
+.navbar .navbar-list li {
+  white-space: nowrap;
+}
+.navbar .contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.navbar .navbar-list li:hover, .navbar .navbar-list li a:hover {
+  text-decoration: underline;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+
+.bg-image-portfolio {
+  background-color: #080707;
+  overflow: hidden;
+  max-width: 100%;
+}
+.bg-image-portfolio .container {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
