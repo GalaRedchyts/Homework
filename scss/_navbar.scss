@@ -1,28 +1,22 @@
 .header{
-    margin: 80px 0px;
-}
-
-.header .container {
-    max-width: 1460px;
-    margin: 0 auto;
-    padding: 0px 15px;
+    margin: toRem(80) 0px toRem(108) 0px;
 }
 
 .navbar {
     display: flex;
-    gap: 85px;
+    gap: toRem(85);
     align-items: center;
 
     .logo {
-        flex-basis: 750px;
+        flex-basis: toRem(750);
         flex-shrink: 1;
-        font-size: 27px;
+        font-size: toRem(27);
         line-height: 1;
     }
 
     .navbar-list {
         display: flex;
-        gap: 75px;
+        gap: toRem(75);
 
         li {
             white-space: nowrap;
@@ -31,7 +25,7 @@
 
     .contact-list {
         display: flex;
-        gap: 10px;
+        gap: toRem(10);
     }
 
     .navbar-list li:hover,  .navbar-list li a:hover{
