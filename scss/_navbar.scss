@@ -1,5 +1,8 @@
 .header{
     margin: toRem(80) 0px toRem(108) 0px;
+    @media (max-width: 660px) {
+        margin: toRem(40) 0px;
+    }
 }
 
 .navbar {
@@ -31,5 +34,29 @@
     .navbar-list li:hover,  .navbar-list li a:hover{
         text-decoration: underline;
         transition-duration: 2s;
+    }
+
+    @media (max-width: 770px) {
+        .navbar-list {
+            gap: 50px;
+        }
+    }
+
+    @media (max-width: 660px) {
+        gap: 20px;
+            .logo {
+                font-size: 20px;
+            }
+
+            .navbar-list {
+                gap: 20px;
+            }
+    }
+
+    @media (max-width: 470px) {
+        flex-direction: column;
+            .logo {
+                flex-basis: 0px;
+            }
     }
 }
