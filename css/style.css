@@ -78,7 +78,7 @@ textarea {
 .header {
   margin: 5rem 0px 6.75rem 0px;
 }
-@media (max-width: 660px) {
+@media (max-width: 850px) {
   .header {
     margin: 2.5rem 0px;
   }
@@ -178,34 +178,34 @@ body {
   text-align: center;
   margin-bottom: 4.375rem;
 }
+@media (max-width: 850px) {
+  .bg-image-portfolio .main h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
 .bg-image-portfolio .main .first-portfolio-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.25rem;
 }
-.bg-image-portfolio .main .first-portfolio-list :nth-child(1) {
-  grid-column: span 4;
+.bg-image-portfolio .main .first-portfolio-list :nth-child(1), .bg-image-portfolio .main .first-portfolio-list :nth-child(3), .bg-image-portfolio .main .first-portfolio-list :nth-child(5), .bg-image-portfolio .main .first-portfolio-list :nth-child(6) {
+  grid-column: span 3;
   grid-row: span 2;
 }
-.bg-image-portfolio .main .first-portfolio-list :nth-child(2) {
-  grid-column: span 4;
+.bg-image-portfolio .main .first-portfolio-list :nth-child(2), .bg-image-portfolio .main .first-portfolio-list :nth-child(4) {
+  grid-column: span 3;
   grid-row: span 4;
 }
-.bg-image-portfolio .main .first-portfolio-list :nth-child(3) {
-  grid-column: span 4;
-  grid-row: span 2;
-}
-.bg-image-portfolio .main .first-portfolio-list :nth-child(4) {
-  grid-column: span 4;
-  grid-row: span 4;
-}
-.bg-image-portfolio .main .first-portfolio-list :nth-child(5) {
-  grid-column: span 4;
-  grid-row: span 2;
-}
-.bg-image-portfolio .main .first-portfolio-list :nth-child(6) {
-  grid-column: span 4;
-  grid-row: span 2;
+@media (max-width: 1040px) {
+  .bg-image-portfolio .main .first-portfolio-list :nth-child(1), .bg-image-portfolio .main .first-portfolio-list :nth-child(3), .bg-image-portfolio .main .first-portfolio-list :nth-child(5), .bg-image-portfolio .main .first-portfolio-list :nth-child(6) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .bg-image-portfolio .main .first-portfolio-list :nth-child(2), .bg-image-portfolio .main .first-portfolio-list :nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
 }
 .bg-image-portfolio .main .first-portfolio-list li img {
   width: 100%;
@@ -214,8 +214,18 @@ body {
      object-fit: cover;
   aspect-ratio: 2/1;
 }
+@media (max-width: 699px) {
+  .bg-image-portfolio .main .first-portfolio-list li img {
+    aspect-ratio: 1/1;
+  }
+}
 .bg-image-portfolio .footer .container {
   max-width: 76.625rem;
   margin: 5rem auto;
   padding: 0rem 1.25rem;
+}
+@media (max-width: 850px) {
+  .bg-image-portfolio .footer .container {
+    margin: 2.5rem 0px;
+  }
 }
