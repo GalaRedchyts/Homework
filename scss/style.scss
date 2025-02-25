@@ -83,11 +83,10 @@ body {
     .footer {
         .container {
             max-width: toRem(1226);
-            margin: toRem(80) auto;
-            padding: toRem(0) toRem(20);
+            padding: toRem(80) toRem(20);
 
             @media (max-width: 850px) {
-                margin: toRem(40) 0px;
+                padding: toRem(40) 0px;
             }
         }
     }

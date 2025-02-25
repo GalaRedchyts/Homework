@@ -1,7 +1,7 @@
 .header{
-    margin: toRem(80) 0px toRem(108) 0px;
+    padding: toRem(80) 0px toRem(108) 0px;
     @media (max-width: 850px) {
-        margin: toRem(40) 0px;
+        padding: toRem(40) 0px;
     }
 }
 
